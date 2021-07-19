@@ -1,7 +1,7 @@
 set_env.sh
-deploy/.env-configmap.yaml
-deploy/.env-secret.yaml
-deploy/.aws-secret.yaml
-*.env-configmap.yaml
-*.env-secret.yaml
-*.aws-secret.yaml
+deploy/env-configmap.yaml
+deploy/env-secret.yaml
+deploy/aws-secret.yaml
+*/env-configmap.yaml
+*/env-secret.yaml
+*/aws-secret.yaml
