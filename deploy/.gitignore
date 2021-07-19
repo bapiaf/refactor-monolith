@@ -1,3 +1,4 @@
+config
 *.env-configmap.yaml
 *.env-secret.yaml
 *.aws-secret.yaml
