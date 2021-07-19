@@ -27,5 +27,5 @@ after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - docker push batoleios/udagram-api-feed:v3
   - docker push batoleios/udagram-api-user:v3
-  - docker push batoleios/udagram-frontend:v4
+  - docker push batoleios/udagram-frontend:v5
   - docker push batoleios/udagram-reverseproxy:v3
