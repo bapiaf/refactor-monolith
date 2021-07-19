@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: batoleios/udagram-frontend:v2
+        - image: batoleios/udagram-frontend:v3
           name: udagram-frontend
           imagePullPolicy: Always
           ports:
@@ -27,5 +27,5 @@ spec:
               cpu: '750m'
             limits:
               memory: '2048Mi'
-              cpu: '1000m'
+              cpu: '1500m'
       restartPolicy: Always

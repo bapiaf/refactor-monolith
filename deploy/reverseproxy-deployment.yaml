@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: batoleios/udagram-reverseproxy:v2
+        - image: batoleios/udagram-reverseproxy:v3
           name: reverseproxy
           imagePullPolicy: Always
           resources:
@@ -24,7 +24,7 @@ spec:
               cpu: '500m'
             limits:
               memory: '2048Mi'
-              cpu: '750m'
+              cpu: '1500m'
           ports:
             - containerPort: 8080
       restartPolicy: Always

@@ -15,16 +15,16 @@ spec:
         service: backend-user
     spec:
       containers:
-        - image: batoleios/udagram-api-user:v2
+        - image: batoleios/udagram-api-user:v3
           name: backend-user
           imagePullPolicy: Always
           resources:
             requests:
               memory: '1024Mi'
-              cpu: '500m'
+              cpu: '750m'
             limits:
               memory: '2048Mi'
-              cpu: '1000m'
+              cpu: '1500m'
           env:
             - name: URL
               valueFrom:
