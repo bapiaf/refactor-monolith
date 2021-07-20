@@ -16,7 +16,7 @@ spec:
         api: external
     spec:
       containers:
-        - image: batoleios/udagram-frontend:v6
+        - image: batoleios/udagram-frontend:v7
           name: udagram-frontend
           imagePullPolicy: Always
           ports:

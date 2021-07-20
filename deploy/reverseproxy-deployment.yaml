@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-        - image: batoleios/udagram-reverseproxy:v4
+        - image: batoleios/udagram-reverseproxy:v5
           name: reverseproxy
           imagePullPolicy: Always
           resources:
